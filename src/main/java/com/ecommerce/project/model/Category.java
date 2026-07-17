@@ -6,6 +6,17 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity(name = "categories")
+
+/* For LOMBOK USE :-
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+Use this and remove all Getters and Setters from this code
+It will work Smoothly and improves readability
+
+*/
 public class Category {
 
     @Id
