@@ -17,6 +17,8 @@ Use this and remove all Getters and Setters from this code
 It will work Smoothly and improves readability
 
 */
+
+
 public class Category {
 
     @Id
